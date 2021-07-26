@@ -128,7 +128,7 @@ function powerPelletEaten() {
         ghosts.forEach(ghost => ghost.isScared = true);
         setInterval(function() {
             ghosts.forEach(ghost => ghost.isScared = false);
-        }, 100000)
+        }, 1000)
     }
 }
 
